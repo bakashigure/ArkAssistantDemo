@@ -1,6 +1,6 @@
 <RCC>
-  <qresource prefix="akahelper">
-    <file>back.png</file>
-    <file>10.png</file>
-  </qresource>
+    <qresource prefix="/ArkAssistant">
+        <file>back.png</file>
+        <file>10.png</file>
+    </qresource>
 </RCC>

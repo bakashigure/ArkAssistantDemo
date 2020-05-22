@@ -2506,7 +2506,7 @@ border-style:outset;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/akahelper/back.png);
+     <string notr="true">image: url(:/ArkAssistant/back.png);
 </string>
     </property>
    </widget>
@@ -2874,7 +2874,7 @@ p, li { white-space: pre-wrap; }
   <tabstop>star1</tabstop>
  </tabstops>
  <resources>
-  <include location="akahelper.qrc"/>
+  <include location="ArkAssistant.qrc"/>
  </resources>
  <connections>
   <connection>

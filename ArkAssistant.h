@@ -60,7 +60,7 @@ public:
 		Node<T>* prev;
 		T data;
 	};
-
+ 
 	template <class T>
 	class linkList
 	{
