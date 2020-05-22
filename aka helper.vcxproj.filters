@@ -2,10 +2,16 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="akahelper.cpp">
+    <ClCompile Include="ArkAssistant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stylesheets.cpp">
+    <ClCompile Include="StyleSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LanguageSwitch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,23 +38,41 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="akahelper.h">
+    <QtMoc Include="ArkAssistant.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="AboutWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LanguageSwitch.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="akahelper.ui">
+    <ClInclude Include="x64\Debug\uic\ui_ArkAssistant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ArkAssistant.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="AboutWindow.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="akahelper.qrc">
-      <Filter>Resource Files</Filter>
-    </QtRcc>
+    <ResourceCompile Include="Arknights Assistant.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="x64\Debug\uic\ui_akahelper.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <Image Include="fav.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ArkAssistant.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
   </ItemGroup>
 </Project>

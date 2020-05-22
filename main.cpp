@@ -1,13 +1,12 @@
-#pragma once
 
-#include "akahelper.h"
+#include "ArkAssistant.h"
 
 using namespace std;
 
 int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
-	akahelper w;
+	ArkAssistant w;
 	w.init();
 	w.show();
 	return a.exec();
